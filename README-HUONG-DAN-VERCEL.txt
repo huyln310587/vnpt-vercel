@@ -29,3 +29,9 @@ Ghi chu:
 
 
 Cập nhật: Website đã có nút gọi điện, gửi SMS và nhắn Zalo đến số 0912964104.
+
+
+CAP NHAT MOI:
+- Da them muc Sim so dep VinaPhone.
+- Da them lua chon Sim so dep trong form dang ky.
+- Form SMS co them ghi chu / so mong muon de khach gui yeu cau tim sim.

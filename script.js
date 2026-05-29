@@ -17,7 +17,9 @@ contactForm?.addEventListener('submit', (event) => {
   const name = formData.get('ho-ten') || '';
   const phone = formData.get('so-dien-thoai') || '';
   const need = formData.get('nhu-cau') || '';
-  const message = `Khách hàng đăng ký tư vấn VNPT:%0A- Họ tên: ${encodeURIComponent(name)}%0A- SĐT: ${encodeURIComponent(phone)}%0A- Nhu cầu: ${encodeURIComponent(need)}`;
+  const note = formData.get('ghi-chu') || '';
 
-  window.location.href = `sms:0912964104?body=${message}`;
+  const message = `Khách hàng đăng ký tư vấn VNPT:\n- Họ tên: ${name}\n- SĐT: ${phone}\n- Nhu cầu: ${need}\n- Ghi chú: ${note}`;
+
+  window.location.href = `sms:0912964104?body=${encodeURIComponent(message)}`;
 });
