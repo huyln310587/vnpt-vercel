@@ -26,3 +26,6 @@ Ghi chu:
 - File netlify.toml da duoc xoa vi chi dung cho Netlify.
 - File vercel.json da duoc them de phu hop Vercel.
 - Form dang ky tren website se mo ung dung SMS gui ve so 0912964104.
+
+
+Cập nhật: Website đã có nút gọi điện, gửi SMS và nhắn Zalo đến số 0912964104.
